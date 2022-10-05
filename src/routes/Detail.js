@@ -3,11 +3,15 @@ import "../css/Detail.css";
 
 function Detail() {
   const location = useLocation().state;
-  
+
   return (
     <div className="details">
       <div className="details__poster">
-        <img src={location.poster} alt={location.title} title={location.title} />
+        <img
+          src={location.poster}
+          alt={location.title}
+          title={location.title}
+        />
       </div>
       <div className="details__data">
         <h2>{location.title}</h2>
@@ -18,7 +22,5 @@ function Detail() {
     </div>
   );
 }
-
-
 
 export default Detail;

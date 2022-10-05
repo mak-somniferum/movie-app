@@ -1,35 +1,35 @@
 .movie {
   display: flex;
-  width:calc(50% - 25px);
+  width: calc(50% - 25px);
   text-decoration: none;
-  color:#000;
+  color: #000;
   background-color: #fff;
-  box-shadow: 10px 10px 20px rgba(0,0,0,0.16);
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.16);
   position: relative;
   margin-top: 50px;
 }
 
 .movie__data {
-  padding:30px;
+  padding: 30px;
 }
 
 .movie__title {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: -1px;
-  margin:0 0 20px 0;
+  margin: 0 0 20px 0;
 }
 
 .movie__year {
   font-size: 12px;
   font-weight: 400;
-  color:#777;
-  margin:0;
+  color: #777;
+  margin: 0;
 }
 
 .genres {
-  margin:0 0 20px;
-  padding:0;
+  margin: 0 0 20px;
+  padding: 0;
 }
 
 .genres__genre {

@@ -1,18 +1,18 @@
 .details {
   text-align: center;
-  max-width:700px;
+  max-width: 700px;
   margin: 50px auto 0;
 }
 
 .details__poster img {
-  box-shadow: 10px 10px 10px rgba(0,0,0,.16);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.16);
 }
 
 .details__data {
   margin-top: 50px;
   padding: 50px;
   background-color: #fff;
-  box-shadow: 10px 10px 10px rgba(0,0,0,.16);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.16);
 }
 
 .details__summary {

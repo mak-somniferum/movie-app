@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-function Navigation(){
+function Navigation() {
   return (
     <div className="navigation">
       <Link to="/">Home</Link>

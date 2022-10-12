@@ -9,6 +9,11 @@
   margin-top: 50px;
 }
 
+.movie img {
+  height: 340px;
+  object-fit: contain;
+}
+
 .movie__data {
   padding: 30px;
 }

@@ -1,15 +1,21 @@
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 import "../css/Movie.css";
+import notFoundImage from "../images/not_found.png";
 
 function Movie({ id, year, title, summary, poster, genres }) {
+
+  const imageNotFound = e => {
+    e.target.src = notFoundImage;
+  }
+
   return (
     <Link
-      to={`/MovieDetail/${id}`}
+      to={`/MovieDetail`}
       state={{ year, title, summary, poster, genres }}
       className="movie"
     >
-      <img src={poster} alt={title} title={title} />
+      <img src={poster} alt={title} title={title} onError={imageNotFound} />
       <div className="movie__data">
         <h3 className="movie__title">{title}</h3>
         <h5 className="movie__year">{year}</h5>
